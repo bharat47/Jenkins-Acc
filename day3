@@ -1,0 +1,190 @@
+    1  apt-get update ; apt-get install default-jdk -y 
+    2  java version 
+    3  java -v
+    4  java -version 
+    5  apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common -y ; add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+    6     $(lsb_release -cs) \
+    7     stable"; apt-get update;  apt-get install docker-ce; apt-get install ansible maven -y 
+    8  ls
+    9  git clone https://github.com/amitvashist7/jenkins-adv-acc-2.git
+   10  wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+   11  ls
+   12  cd jenkins-adv-acc-2/
+   13  ls
+   14  cd spring-boot-project/spring-boot-samples/spring-boot-sample-atmosphere/
+   15  ls
+   16  mvn package 
+   17  ls
+   18  cd 
+   19  ls
+   20  rm -rf jenkins-adv-acc-2
+   21  docker version 
+   22  init 0 
+   23  l
+   24  bash
+   25  ps -ef | grep java
+   26  date
+   27  date && ls
+   28  vi file
+   29  date && ls cat file 
+   30  date && ls && cat file 
+   31  pwd
+   32  ls
+   33  ls -ltr
+   34  pwd && ls;
+   35  pwd
+   36  yum list all
+   37  ifconfig 
+   38  ifconfig |grep docker0
+   39  cd
+   40  pwd
+   41  exit
+   42  docker version
+   43  docker search linux
+   44  docker run hello world
+   45  docker search hello world
+   46  docker search hello
+   47  docker run hello-world
+   48  dcoker images
+   49  dcoker list
+   50  docker help
+   51  docker images
+   52  docker search ubuntu
+   53  docker help
+   54  docker import ubuntu
+   55  dcoker pull ubuntu
+   56  docker pull ubuntu
+   57  docker images
+   58  docker pull centos
+   59  docker version
+   60  cat /etc/resolv
+   61  cat /etc/*-release
+   62  docker images
+   63  docker run -it ubuntu
+   64  docker ps
+   65  docker lis
+   66  docker list
+   67  docker ps
+   68  docker ps -a
+   69  docker run -it ubuntu
+   70  docker run -it fa0d55fc7b7c
+   71  docker help
+   72  docker restart fa0d55fc7b7c
+   73  ps -ef
+   74  docker help
+   75  docker ps
+   76  docker run -it fa0d55fc7b7c
+   77  docker -it fa0d55fc7b7c
+   78  dcoker ps
+   79  docker ps
+   80  docker ps -a
+   81  docker start fa0d55fc7b7c
+   82  docker ps -a
+   83  docker attach fa0d55fc7b7c
+   84  history 
+   85  docker attach fa0d55fc7b7c
+   86  ps -a
+   87  docker ps -a
+   88  dcoker ps -a
+   89  docker run it ubuntu
+   90  docker run -it ubuntu
+   91  docker ps -a
+   92  docker inspect upbeat_colden
+   93  docker run -it --name mylocal ubuntu
+   94  docker ps -aq
+   95  docker ps -a
+   96  ip addr
+   97  curl 172.17.0.2
+   98  docker inspect mylocal
+   99  docker ps
+  100  docker pa =a
+  101  docker ps -a
+  102  dicker stop mylocal
+  103  docker stop mylocal
+  104  curl 172.17.0.2
+  105  docker start mylocal
+  106  docker attach mylocal
+  107  docker commit -p -m "my first image" mylocal localnewimage:v1
+  108  docker image
+  109  docker images
+  110  docker run -it --name local2 localnewimage:v1
+  111  docker commit -p -m "my second image" local2 "localnewimage:v2
+  112  docker commit -p -m "my second image" local2 localnewimage:v2
+  113  docker images
+  114  curl 172.17.0.3
+  115  curl 172.17.0.2
+  116  docker ps 
+  117  docker inspect b930929394ff
+  118  docker ps 
+  119  history 
+  120  docker images 
+  121  docker run -it --name local3 localnewimage:v2
+  122  docker commit -p -m "my third" local3 localnewimage:v3
+  123  docker images 
+  124  docker login
+  125  docker ps -ef
+  126  docker ps -a
+  127  docker kill $(ps -a)
+  128  docker kill $(docker ps -a)
+  129  docker ps -a
+  130  docker rm $(docker ps -a)
+  131  docker ps -a
+  132  docker image
+  133  docker images
+  134  docker tag localnewimage:v3 bharat470/img01
+  135  docker images
+  136  docker push bharat470/img01
+  137  docker run -itd bharat470/img01
+  138  docker ps
+  139  docker attach d7ff78295a57
+  140  ls
+  141  docker ps -a
+  142  docker push bharat470/img01:v2
+  143  docker tag d7ff78295a57 bharat470/img01:v2
+  144  docker commit -p -m "my third" d7ff78295a57 bharat470/img01:v2
+  145  docker push bharat470/img01:v2
+  146  history 
+  147  ls
+  148  mkdir dockerfile
+  149  ls
+  150  cd dockerfile/
+  151  vim dockerfile
+  152  bharat.html
+  153  vi bharat.html
+  154  docker images
+  155  docker build -t myimage_using_dockerfile:v1 .
+  156  docker images
+  157  docker run itd --name contaier_using_dockerfile -p 38080:80 myimage_using_dockerfile:v1
+  158  docker run -itd --name contaier_using_dockerfile -p 38080:80 myimage_using_dockerfile:v1
+  159  docker inspect contaier_using_dockerfile
+  160  docker ps -a
+  161  docker ps
+  162  docker attach 3d9948872d85
+  163  ps -ef | grep apache2
+  164  docker attach 3d9948872d85
+  165  docker up 3d9948872d85
+  166  docker start 3d9948872d85
+  167  docker attach 3d9948872d85
+  168  netstat -tulp
+  169  docker ps
+  170  docker start contaier_using_dockerfile
+  171  docker ps
+  172  docker inspect 3d9948872d85
+  173  curl 172.17.0.3
+  174  ifconfig 
+  175  git status
+  176  git add .
+  177  pwd
+  178  git checkot master
+  179  git checkout master
+  180  ls
+  181  cd
+  182  cls
+  183  ls
+  184  cd myproject/
+  185  ls
+  186  cd ..
+  187  ls
+  188  cp /home/vagrant/dockerfile/dockerfile .
+  189  ls
+  190  history > day3
